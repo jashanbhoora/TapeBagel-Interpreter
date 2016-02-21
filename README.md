@@ -7,4 +7,4 @@ Written as part of the Internetwache CTF 2016, full challenge writeup [here](htt
  ```python tapebagel.py path-to-tb-file```
 
 ## Under the hood
-The interpret expects a single input string, with operations separated by a single space character. The string is split into a list
+The interpret function expects a single input string, with operations separated by a single space character. The string is split into a list, then iterated through and interpreted against the program environments state array and idx pointer.
